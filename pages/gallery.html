@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../gallery.css" />
+    <title>Flexbox Example</title>
+  </head>
+
+  <body>
+    <nav class="nav-1">
+      <a href="#">
+        <picture>
+          <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+          <source srcset="../assets/logo/ECO_logo_big.png" type="img/png" />
+          <img src="../assets/logo/ECO_logo_big.jpg" alt="img/jpeg" />
+        </picture>
+      </a>
+      <ul>
+        <li><a href="../index.html">Left</a></li>
+        <li><a href="./right.html">Right</a></li>
+        <li class="dropdown">
+          <a href="#" id="current-page">Layout</a>
+          <ul id="services-menu">
+            <li><a href="#">Gardening</a></li>
+            <li><a href="#">Landscaping</a></li>
+            <li><a href="#">Weed Control</a></li>
+            <li><a href="#">Tree Removal</a></li>
+          </ul>
+        </li>
+        <li><a href="./gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 style="text-align: center">Floated Left + Flexbox</h1>
+    </header>
+
+    <main></main>
+
+    <footer>
+      <nav class="nav-2">
+        <a href="#">
+          <picture>
+            <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+            <source srcset="../assets/logo/ECO_logo_big.png" type="img/png" />
+            <img src="../assets/logo/ECO_logo_big.jpg" alt="img/jpeg" />
+          </picture>
+        </a>
+      </nav>
+      <nav class="nav-3">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <p>&copy; 2024 My WebSite</p>
+    </footer>
+  </body>
+</html>

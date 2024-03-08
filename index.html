@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Flexbox Example</title>
+  </head>
+
+  <body>
+    <nav class="nav-1">
+      <a href="#">
+        <picture>
+          <source srcset="./assets/logo/ECO_logo.svg" type="image/svg+xml" />
+          <source srcset="./assets/logo/ECO_logo_big.png" type="img/png" />
+          <img src="./assets/logo/ECO_logo_big.jpg" alt="img/jpeg" />
+        </picture>
+      </a>
+      <ul>
+        <li><a href="#" id="current-page">Left</a></li>
+        <li><a href="./pages/right.html">Right</a></li>
+        <li class="dropdown">
+          <a href="./pages/layout.html">Layout</a>
+          <ul id="services-menu">
+            <li><a href="#">Gardening</a></li>
+            <li><a href="#">Landscaping</a></li>
+            <li><a href="#">Weed Control</a></li>
+            <li><a href="#">Tree Removal</a></li>
+          </ul>
+        </li>
+        <li><a href="./pages/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 style="text-align: center">Floated Left + Flexbox</h1>
+    </header>
+
+    <main>
+      <article>
+        <div class="float-left">
+          <picture>
+            <source
+              srcset="./assets/imgs/guineapig-small.jpg"
+              type="image/jpg"
+            />
+            <img src="./assets/imgs/guineapig-small.jpg" alt="guineapig" />
+          </picture>
+        </div>
+        <div class="textbox">
+          <h2 class="post-title">Left Example of Float Layout</h2>
+          <p class="post-info">
+            Published
+            <time datetime="2023-03-04T18:30">March 4th, 2023 at 6:30 PM</time>.
+          </p>
+          <p class="post-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            aliquam delectus harum magni ab minima. Omnis ut laborum dolorem
+            eaque sunt distinctio blanditiis commodi! Maxime atque eaque ducimus
+            odit? Veritatis?
+          </p>
+          <p class="post-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            aliquam delectus harum magni ab minima. Omnis ut laborum dolorem
+            eaque sunt distinctio blanditiis commodi! Maxime atque eaque ducimus
+            odit? Veritatis?
+          </p>
+          <p class="post-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            perspiciatis ab, vero consequatur libero at? Distinctio nam quidem
+            autem. Magni, quisquam quasi cum eum provident deserunt.
+            Consequuntur nam voluptatibus in.
+          </p>
+          <p class="post-paragraph last-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            perspiciatis ab, vero consequatur libero at? Distinctio nam quidem
+            autem. Magni, quisquam quasi cum eum provident deserunt.
+            Consequuntur nam voluptatibus in.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <nav class="nav-2">
+        <a href="#">
+          <picture>
+            <source srcset="./assets/logo/ECO_logo.svg" type="image/svg+xml" />
+            <source srcset="./assets/logo/ECO_logo_big.png" type="img/png" />
+            <img src="./assets/logo/ECO_logo_big.jpg" alt="img/jpeg" />
+          </picture>
+        </a>
+      </nav>
+      <nav class="nav-3">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <p>&copy; 2024 My WebSite</p>
+    </footer>
+  </body>
+</html>
