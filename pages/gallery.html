@@ -13,14 +13,18 @@
         <picture>
           <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
           <source srcset="../assets/logo/ECO_logo_big.png" type="img/png" />
-          <img src="../assets/logo/ECO_logo_big.jpg" alt="img/jpeg" />
+          <img
+            class="logo"
+            src="../assets/logo/ECO_logo_big.jpg"
+            alt="img/jpeg"
+          />
         </picture>
       </a>
       <ul>
         <li><a href="../index.html">Left</a></li>
         <li><a href="./right.html">Right</a></li>
         <li class="dropdown">
-          <a href="#" id="current-page">Layout</a>
+          <a href="./layout.html">Layout</a>
           <ul id="services-menu">
             <li><a href="#">Gardening</a></li>
             <li><a href="#">Landscaping</a></li>
@@ -28,14 +32,59 @@
             <li><a href="#">Tree Removal</a></li>
           </ul>
         </li>
-        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="#" id="current-page">Gallery</a></li>
       </ul>
     </nav>
     <header>
-      <h1 style="text-align: center">Floated Left + Flexbox</h1>
+      <h1 style="text-align: center">Flexbox Gallery</h1>
     </header>
 
-    <main></main>
+    <main>
+      <div class="container-box">
+        <aside>
+          <h2>Animal</h2>
+          <p class="animal-name">guineapig</p>
+          <p class="animal-name">fish</p>
+          <p class="animal-name">amphibian</p>
+          <p class="animal-name">reptiles</p>
+          <p class="animal-name">bird</p>
+          <p class="animal-name">mammal</p>
+        </aside>
+
+        <section id="animal">
+          <img
+            class="animal-img"
+            src="../assets/imgs/guineapig-small.jpg"
+            alt="guineapig"
+          />
+          <img
+            class="animal-img"
+            src="../assets/imgs/fish-small.jpg"
+            alt="fish"
+          />
+          <img
+            class="animal-img"
+            src="../assets/imgs/amphibian-small.jpg"
+            alt="amphibian"
+          />
+          <img
+            class="animal-img"
+            src="../assets/imgs/reptile-small.jpg"
+            alt="reptile"
+          />
+          <img
+            class="animal-img second-line"
+            src="../assets/imgs/bird-small.jpg"
+            alt="bird"
+          />
+          <img
+            class="animal-img second-line"
+            src="../assets/imgs/mammal-small.jpg"
+            alt="mammal"
+          />
+        </section>
+      </div>
+    </main>
 
     <footer>
       <nav class="nav-2">
@@ -43,7 +92,11 @@
           <picture>
             <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
             <source srcset="../assets/logo/ECO_logo_big.png" type="img/png" />
-            <img src="../assets/logo/ECO_logo_big.jpg" alt="img/jpeg" />
+            <img
+              class="logo"
+              src="../assets/logo/ECO_logo_big.jpg"
+              alt="img/jpeg"
+            />
           </picture>
         </a>
       </nav>

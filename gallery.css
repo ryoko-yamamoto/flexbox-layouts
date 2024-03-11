@@ -53,6 +53,12 @@ nav ul li a:active,
   color: aquamarine;
 }
 
+.logo {
+  margin: 16px;
+  max-height: 48px;
+  background-color: white;
+}
+
 /*Dropdown Menu Elements*/
 .dropdown {
   position: relative;
@@ -86,6 +92,61 @@ nav ul li a:active,
 
 header {
   padding-top: 160px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+aside {
+  display: flex;
+  width: 20%;
+  margin: 10px;
+  background-color: yellow;
+  border: solid 1px red;
+  flex-direction: column;
+}
+
+aside h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  font-size: 24px;
+  background-color: aliceblue;
+  border: solid 1px blue;
+  margin: 5px;
+}
+
+.animal-name {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  font-size: 24px;
+  background-color: pink;
+  border: solid 1px blue;
+  /*padding: 10px;*/
+  margin: 5px;
+}
+
+#animal {
+  display: flex;
+  gap: 27px;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 5px;
+  background-color: yellow;
+  border: solid 1px red;
+}
+
+.animal-img {
+  display: flex;
+  width: 213px;
+  height: 142px;
+  border: solid 1px blue;
+  margin: 5px;
 }
 
 /* Footer Section */

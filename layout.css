@@ -53,6 +53,12 @@ nav ul li a:active,
   color: aquamarine;
 }
 
+.logo {
+  margin: 16px;
+  max-height: 48px;
+  background-color: white;
+}
+
 /*Dropdown Menu Elements*/
 .dropdown {
   position: relative;
@@ -86,6 +92,45 @@ nav ul li a:active,
 
 header {
   padding-top: 160px;
+}
+
+/* Flex Box Section*/
+.container-box {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  border: solid 2px blue;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.section-2 {
+  display: flex;
+}
+
+.flexbox-3 {
+  justify-content: center;
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  margin: 10px;
+  padding: 50px 200px;
+  background-color: yellow;
+  border: solid 2px green;
+}
+
+.flexbox p {
+  font-size: 40px;
+  border: solid 1px black;
 }
 
 /* Footer Section */

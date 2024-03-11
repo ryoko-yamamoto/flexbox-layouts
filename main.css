@@ -90,18 +90,6 @@ header {
 
 /* Pages Content and Article Styling */
 /* Article Images*/
-
-/* Footer Section */
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-  min-height: 100px;
-  background-color: #1f1f1f;
-}
-
 .float-left {
   float: left;
 }
@@ -119,17 +107,10 @@ img {
 /* Article Text */
 .textbox {
   border: solid 1px red;
-  /*border-style: solid;
-    border-width: 1px;
-    border-color: red;*/
   margin: 16px;
   padding: 16px 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
-}
-
-.clear-both {
-  clear: both;
 }
 
 .post-title {
@@ -150,17 +131,25 @@ img {
   margin-bottom: 24px;
 }
 
-.clear-both {
-  clear: both;
-}
-
 .last {
   margin: 0 130px;
 }
-img {
+
+.logo {
   margin: 16px;
   max-height: 48px;
   background-color: white;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  min-height: 100px;
+  background-color: #1f1f1f;
 }
 
 footer hr {

@@ -88,6 +88,57 @@ header {
   padding-top: 160px;
 }
 
+.float-right {
+  float: right;
+}
+
+img {
+  margin: 16px;
+  border: solid 3px #333;
+  max-width: 320px;
+}
+
+/* Article Text */
+.textbox {
+  border: solid 1px red;
+
+  margin: 16px;
+  padding: 16px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.post-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.post-info {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.post-paragraph {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.last-paragraph {
+  margin-bottom: 24px;
+}
+
+.last {
+  margin: 0 130px;
+}
+img {
+  margin: 16px;
+  max-height: 48px;
+  background-color: white;
+}
+
 /* Footer Section */
 footer {
   display: flex;
